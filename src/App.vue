@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<!--  <login-form></login-form>-->
+<!--  <registration-table></registration-table>-->
+  <registration-form></registration-form>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import { ElButton } from 'element-plus';
+import LoginForm from "./components/LoginForm";
+import RegistrationTable from "./components/RegistrationTable";
+import RegistrationForm from "./components/RegistrationForm";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    RegistrationForm,
+    RegistrationTable,
+    LoginForm,
+    ElButton
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
