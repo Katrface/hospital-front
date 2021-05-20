@@ -71,7 +71,7 @@
     import {ElOption, ElSelect, ElInput, ElButton, ElDatePicker, ElForm, ElFormItem, ElTimePicker} from "element-plus";
 
     export default {
-        name: "RegistrationForm",
+        organizationName: "RegistrationForm",
         data() {
             return {
                 status: ""

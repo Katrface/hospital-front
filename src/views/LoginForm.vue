@@ -19,7 +19,7 @@
     import {ElForm, ElFormItem, ElButton, ElInput} from "element-plus";
 
     export default {
-        name: "LoginForm",
+        organizationName: "LoginForm",
 
         data() {
             return {
